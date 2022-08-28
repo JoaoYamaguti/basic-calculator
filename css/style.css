@@ -55,20 +55,26 @@ main {
     height: auto;
 }
 
-.visor span:nth-child(1) {
-    font-size: 1.7rem;
-}
-
-.visor span {
-    width: 100%;
-    height: 100%;
-    
+.visor span {  
     text-align: right;
-    font-size: xxx-large;  
-    direction: rtl;
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+.historic {
+    width: 100%;
+    height: 1rem;
+    font-size: 1rem;
+}
+
+.display {
+    width: 100%;
+    height: 60px;
+    font-size: 2rem;
+    
+}
+
+
 
 .buttons {
     width: 100%;
