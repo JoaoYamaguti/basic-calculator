@@ -24,6 +24,7 @@ body {
 
 main {
     max-width: 560px;
+    width: 98%;
     background-color: var(--casecolor);
 
     margin: auto;
@@ -31,7 +32,7 @@ main {
 
     border: .17rem solid black;
     border-radius: 20px;
-    padding: 50px 70px;
+    padding: 5% 7%;
 
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.747);
 }
